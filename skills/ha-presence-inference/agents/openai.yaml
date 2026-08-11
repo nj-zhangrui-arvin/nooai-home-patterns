@@ -1,0 +1,4 @@
+interface:
+  display_name: "HA Presence Inference"
+  short_description: "Design topology-first room presence inference safely"
+  default_prompt: "Use $ha-presence-inference to design and test a topology-first Home Assistant location model."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "HA Floorplan 3D Public"
+  short_description: "Build reproducible privacy-safe HA floorplan assets"
+  default_prompt: "Use $ha-floorplan-3d-public to build and validate a staged Home Assistant floorplan asset set."

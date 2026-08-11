@@ -1,0 +1,4 @@
+interface:
+  display_name: "Public Release Audit"
+  short_description: "Privacy and secret gates for public Git releases"
+  default_prompt: "Use $public-release-audit to audit this repository before a public Git commit or release."

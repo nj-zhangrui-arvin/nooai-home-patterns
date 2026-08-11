@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "path": "assets/hero.png",
+      "sha256": "4c32576063db2798d3ecb6b161b4903307d04a49f6d468156babb7d79ac10ff9",
+      "source": "Generated with the OpenAI image tool from a privacy-safe fictional prompt; no input images.",
+      "license": "MIT",
+      "privacy_reviewed": true,
+      "metadata_removed": true
+    }
+  ],
+  "pending_assets": []
+}

@@ -1,0 +1,8 @@
+homeassistant:
+  name: Example Home
+  internal_url: http://ha.example.test:8123
+
+default_config:
+
+logger:
+  default: warning

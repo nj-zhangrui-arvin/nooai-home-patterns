@@ -1,0 +1,6 @@
+interface:
+  display_name: "Codex Phase Release"
+  short_description: "Run evidence-based phased delivery with bounded focus"
+  default_prompt: "Use $codex-phase-release to complete this project phase with tests, evidence, and a clean handoff."
+policy:
+  allow_implicit_invocation: false

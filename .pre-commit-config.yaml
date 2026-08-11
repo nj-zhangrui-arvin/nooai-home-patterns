@@ -1,0 +1,15 @@
+minimum_pre_commit_version: "3.0.0"
+repos:
+  - repo: local
+    hooks:
+      - id: public-release-audit-staged
+        name: Public release privacy gate (tree and staged index)
+        language: system
+        entry: env PYTHONDONTWRITEBYTECODE=1 python3 skills/public-release-audit/scripts/audit_public_release.py . --staged
+        pass_filenames: false
+        stages: [pre-commit]
+      - id: public-release-audit-message
+        name: Public release commit-message privacy gate
+        language: system
+        entry: env PYTHONDONTWRITEBYTECODE=1 python3 skills/public-release-audit/scripts/audit_public_release.py . --commit-message
+        stages: [commit-msg]

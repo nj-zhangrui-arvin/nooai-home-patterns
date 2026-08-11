@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "units": "meters",
+  "source": {
+    "kind": "synthetic",
+    "license": "MIT"
+  },
+  "cameras": [
+    {"name": "top"},
+    {"name": "isometric"}
+  ],
+  "objects": [
+    {"name": "room_alpha"},
+    {"name": "light_alpha"}
+  ]
+}

@@ -1,0 +1,15 @@
+services:
+  homeassistant:
+    image: ghcr.io/home-assistant/home-assistant:stable
+    restart: unless-stopped
+    volumes:
+      - ./config:/config
+    ports:
+      - "8123:8123"
+
+  reverse_tunnel:
+    image: alpine:3.20
+    restart: unless-stopped
+    depends_on:
+      - homeassistant
+    command: ["sh", "-c", "echo 'Replace with a reviewed autossh command' && sleep infinity"]

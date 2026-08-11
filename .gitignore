@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.env*
+*.log
+*.db
+*.sqlite*
+.storage/
+backups/
+data/
+logs/
+out/
+output/
+tmp/
