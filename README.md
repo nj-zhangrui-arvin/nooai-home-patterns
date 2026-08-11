@@ -29,7 +29,7 @@
 
 ```bash
 env PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v
-env PYTHONDONTWRITEBYTECODE=1 python3 tools/check_public_export.py .
+env PYTHONDONTWRITEBYTECODE=1 python3 tools/check_public_export.py . --media-manifest media-manifest.json
 ```
 
 ### 效果
@@ -74,7 +74,7 @@ Collect the publicly shareable Home Assistant modules, skills, documentation, ex
 
 ```bash
 env PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v
-env PYTHONDONTWRITEBYTECODE=1 python3 tools/check_public_export.py .
+env PYTHONDONTWRITEBYTECODE=1 python3 tools/check_public_export.py . --media-manifest media-manifest.json
 ```
 
 ### Outcomes

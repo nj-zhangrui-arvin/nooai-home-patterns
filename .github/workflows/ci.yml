@@ -28,14 +28,14 @@ jobs:
           PY
       - name: Run tests
         run: env PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v
-              - name: Run public export gate when present
-                run: |
-                  if [ -f tools/check_public_export.py ]; then
-                    if [ -f media-manifest.json ]; then
-                      env PYTHONDONTWRITEBYTECODE=1 python3 tools/check_public_export.py . --media-manifest media-manifest.json
-                    else
-                      env PYTHONDONTWRITEBYTECODE=1 python3 tools/check_public_export.py .
-                    fi
-                  else
-                    echo "No public export gate in this repository."
-                  fi
+      - name: Run public export gate when present
+        run: |
+          if [ -f tools/check_public_export.py ]; then
+            if [ -f media-manifest.json ]; then
+              env PYTHONDONTWRITEBYTECODE=1 python3 tools/check_public_export.py . --media-manifest media-manifest.json
+            else
+              env PYTHONDONTWRITEBYTECODE=1 python3 tools/check_public_export.py .
+            fi
+          else
+            echo "No public export gate in this repository."
+          fi
