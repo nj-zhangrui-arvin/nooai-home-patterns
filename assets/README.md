@@ -1,5 +1,7 @@
-# Media placeholder
+# Reviewed media
 
-预留公开仓库首页或文档使用的 `assets/hero.png`。添加真实文件前，先确认素材是合成的或明确许可的、元数据已清除，并同步更新根目录 `media-manifest.json`。
+![Hero](hero.png)
 
-Reserve `assets/hero.png` for a future public hero image. Before adding a file, confirm it is synthetic or explicitly licensed, strip metadata, and update the root `media-manifest.json`.
+当前 `hero.png` 已按根目录 `media-manifest.json` 完成来源、许可、隐私与摘要审核。新增或替换素材时必须清除元数据并更新精确 SHA-256。
+
+The current `hero.png` is reviewed for source, license, privacy, and digest in the root `media-manifest.json`. Strip metadata and update the exact SHA-256 before adding or replacing media.
