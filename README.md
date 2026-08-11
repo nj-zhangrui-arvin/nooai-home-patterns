@@ -14,6 +14,17 @@
 - 保留完整的公开 docs/examples/tests/tools 结构，方便二次拆分或直接参考。
 - 默认不带任何私有家庭配置、历史或运行数据；展示图为独立生成的虚构场景。
 
+### 独立仓库
+
+| 项目 | 解决的问题 |
+| --- | --- |
+| [public-release-audit](https://github.com/nj-zhangrui-arvin/public-release-audit) | 在公开前检查工作树、暂存区、历史、媒体与凭据泄露。 |
+| [ha-reliable-command](https://github.com/nj-zhangrui-arvin/ha-reliable-command) | 为无回读或弱回读设备提供不过度声称成功的幂等状态机。 |
+| [ha-presence-evidence](https://github.com/nj-zhangrui-arvin/ha-presence-evidence) | 用区域拓扑和证据链约束 RSSI，阻止不可能的房间跳变。 |
+| [ha-floorplan-pipeline](https://github.com/nj-zhangrui-arvin/ha-floorplan-pipeline) | 规范合成或许可 3D 户型资产的生成、校验与隐私门禁。 |
+| [codex-phase-release](https://github.com/nj-zhangrui-arvin/codex-phase-release) | 把长任务收敛为有范围、有证据、可交接的阶段交付。 |
+| [ha-commute-policy](https://github.com/nj-zhangrui-arvin/ha-commute-policy) | 用 freshness 与 provenance 做 provider-neutral 通勤提醒判断。 |
+
 ### Quickstart
 
 ```bash
@@ -47,6 +58,17 @@ Collect the publicly shareable Home Assistant modules, skills, documentation, ex
 - Combines public release auditing, presence inference, reliable commands, commute policy, and phase release patterns.
 - Keeps the full public docs/examples/tests/tools structure for direct reuse or further splitting.
 - Ships with no private household configuration, history, or runtime data; its preview is fictional and independently generated.
+
+### Standalone repositories
+
+| Project | What it removes |
+| --- | --- |
+| [public-release-audit](https://github.com/nj-zhangrui-arvin/public-release-audit) | Checks trees, staged changes, history, media, and credentials before publication. |
+| [ha-reliable-command](https://github.com/nj-zhangrui-arvin/ha-reliable-command) | Adds an idempotent state machine for weak-feedback devices without claiming unobserved success. |
+| [ha-presence-evidence](https://github.com/nj-zhangrui-arvin/ha-presence-evidence) | Constrains RSSI with topology and evidence to prevent impossible room jumps. |
+| [ha-floorplan-pipeline](https://github.com/nj-zhangrui-arvin/ha-floorplan-pipeline) | Defines generation, validation, and privacy gates for synthetic or licensed 3D floorplans. |
+| [codex-phase-release](https://github.com/nj-zhangrui-arvin/codex-phase-release) | Turns long tasks into bounded, evidenced, handoff-ready phases. |
+| [ha-commute-policy](https://github.com/nj-zhangrui-arvin/ha-commute-policy) | Makes provider-neutral commute decisions with freshness and provenance. |
 
 ### Quickstart
 
